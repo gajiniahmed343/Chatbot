@@ -1,0 +1,268 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "byee","take care", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Bye! Take care"
+      ]
+    },
+    {
+      "tag": "good",
+      "patterns": [
+        "you are good",
+        "you are great",
+        "I had a great time with you"
+      ],
+      "responses": [
+        "Thanks and you too :)",
+        "Thank you :)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "dlp",
+      "patterns": [
+        "what is this chatbot about",
+        "what is this chatbot regarding",
+        "what is this chatbot regarding?"
+      ],
+      "responses": [
+        "It is regarding dlp group"
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "who are you",
+        "what is the use of you"
+      ],
+      "responses": [
+        "I am Chatbot and I am here to help you regarding DLP Team"
+      ]
+    },
+    {
+      "tag": "count",
+      "patterns": [
+        "how many members are there in our dlp team",
+        "Count of the team",
+        "Size of the team"
+      ],
+      "responses": [
+        "There are 8 members in our dlp group"
+      ]
+    },
+    {
+      "tag": "members",
+      "patterns": [
+        "Names of the dlp team",
+        "Members in our group"
+      ],
+      "responses": [
+         "Our Team members are:\n\tAnand Mahimaluri \n\tRohan Wahi \n\tMeenal Jain \n\tAbhishek Patil \n\tGajani Syed \n\tPreetha Ramanathan \n\tHemalatha D \n\tSachin Tiwari"
+      ]
+    },
+    {
+      "tag": "morning",
+      "patterns": [
+        "Good Morning",
+        "mrng",
+        "mng",
+        "morng"
+      ],
+      "responses": [
+        "Very Good Morning, Have a nice day"
+      ]
+    },
+    {
+      "tag": "afternoon",
+      "patterns": [
+        "Good Afternoon",
+        "aftrn",
+        "aftr"
+      ],
+      "responses": [
+        "Good Afternoon, Had your lunch?"
+      ]
+    },
+    {
+      "tag": "evening",
+      "patterns": [
+        "Good Evening",
+        "evng",
+        "evg"
+      ],
+      "responses": [
+        "Good Evening, Had your coffee?"
+      ]
+    },
+    {
+      "tag": "night",
+      "patterns": [
+        "Good Night",
+        "nyt",
+        "nht",
+        "nit"
+      ],
+      "responses": [
+        "Good Night, Sweet dreams"
+      ]
+    },
+    {
+      "tag": "timesheet",
+      "patterns": [
+        "How to apply timesheet",
+        "path for timesheet",
+        "path for applying timesheet",
+        "How to apply timesheet using mobile"
+      ],
+      "responses": [
+        "You can fill the timesheet through mobile or pc.\n\nPath for applying though pc :\nUltimatix--> Menu--> Applications--> Employee Services--> Employee Self Services--> Timesheet entry.\n\nFor applying through mobile you can directly have timesheet app where it is available in UXApps"
+      ]
+    },
+    {
+      "tag": "leave",
+      "patterns": [
+        "How to apply for leave",
+        "path for applying leave"
+      ],
+      "responses": [
+        "Path for applying leave :\nUltimatix--> Menu--> Applications--> Employee Services--> Employee Self Services--> Global ESS--> Leave"
+      ]
+    },
+    {
+      "tag": "whom",
+      "patterns": [
+        "To whom should I contact for leave",
+        "to whom should I connect for leave",
+        "Can you tell the name for whom should I connect for leave"
+      ],
+      "responses": [
+        "Before Applying any kind of leave, you should inform Anand or Rohan. They will help you for applying leaves or any other needs."
+      ]
+    },
+    {
+      "tag": "create",
+      "patterns": [
+        "who has made you",
+        "who created you",
+        "who is the founder of you"
+      ],
+      "responses": [
+        "Gajani Syed :)"
+      ]
+    },
+    {
+      "tag": "inform",
+      "patterns": [
+        "Can you inform a message to our team",
+        "Can you tell a message to our team",
+        "Can you pass a message to our team"
+      ],
+      "responses": [
+        "Sure! I will inform the Team lead. Send the message as below format:\n\tunity {Body}"
+      ]
+    },
+    {
+      "tag": "unity",
+      "patterns": [
+        "unity I will be on leave tommorrow",
+        "unity I will be on leave today",
+        "unity I will be on off today",
+        "unity I will be on off tommorrow",
+        "unity I am going out and will be back in an hour",
+        "unity I will be on break for 1 hour",
+        "unity I want leave tommorrow",
+        "unity I want leave today",
+        "unity Can I get leave today",
+        "unity Can I get leave tommorrow"
+      ],
+      "responses": [
+        "The message is sent to the team"
+      ]
+    },
+    {
+      "tag": "dlp tool",
+      "patterns": [
+        "what is the major tool that dlp team is working on",
+        "which tool is dlp team using",
+        "what is tool that dlp team is using"
+      ],
+      "responses": [
+        "Jira Tool"
+      ]
+    },
+    {
+      "tag": "jira tool",
+      "patterns": [
+        "what is jira tool",
+        "tell me anything about jira tool",
+        "what is jira tool used for",
+        "why is jira tool important"
+      ],
+      "responses": [
+        "\n--> Jira Software is an agile project management tool that supports any agile methodology, be it scrum, kanban, or your own unique flavor. From agile boards, backlogs, roadmaps, reports, to integrations and add-ons you can plan, track, and manage all your agile software development projects from a single tool.\n\n--> From agile boards, backlogs, roadmaps, reports, to integrations and add-ons you can plan, track, and manage all your agile software development projects from a single tool.\n\n--> Jira Software is part of a family of products designed to help teams of all types manage work. Originally, Jira was designed as a bug and issue tracker. But today, Jira has evolved into a powerful work management tool for all kinds of use cases, from requirements and test case management to agile software development."
+      ]
+    },
+    {
+      "tag": "domian",
+      "patterns": [
+        "In which domain dlp team is working on",
+        "In which field dlp team is working on",
+        "In which category dlp team is working on"
+      ],
+      "responses": [
+        "Cyber Security"
+      ]
+    },
+    {
+      "tag": "cyber security",
+      "patterns": [
+        "what is cyber security",
+        "tell me anything about cyber security",
+        "what is cyber security used for",
+        "why is cyber security important"
+      ],
+      "responses": [
+        "\n--> Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.\n\n--> These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.\n\n--> With an increasing number of users, devices and programs in the modern enterprise, combined with the increased deluge of data -- much of which is sensitive or confidential -- the importance of cybersecurity continues to grow. The growing volume and sophistication of cyber attackers and attack techniques compound the problem even further."
+      ]
+    },
+    {
+      "tag": "refer",
+      "patterns": [
+        "can I refer my friend to TCS",
+        "can I refer my buddy to TCS",
+        "How can I refer my friend to TCS",
+        "How can I refer my buddy to TCS"
+      ],
+      "responses": [
+        "Yes you can!.\nPath for Refering your buddy:\n\tUltimatix--.> Menu--> Featured--> Bring your buddy",
+        "Path for Refering your buddy:\n\tUltimatix--> Menu--> Featured--> Bring your buddy"
+      ]
+    }
+  ]
+}
